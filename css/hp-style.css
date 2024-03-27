@@ -1,0 +1,1999 @@
+.logo .innerpage-logo {
+	display: none;
+	opacity: 0;
+	transition: all .8s;
+}
+
+/* Atf start*/
+.atf-section {
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	color: #0E2545;
+	padding: 100px 0;
+	background-color: #17273e;
+	background-image: linear-gradient(to right, #42270a, #17273e);
+	background-attachment: fixed;
+}
+
+.atf-content span h1 {
+	font-size: 100px;
+	color: #0E2545;
+	font-family: "oswald_Light";
+	letter-spacing: -3px;
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 90px;
+	margin-right: 10px;
+}
+
+.atf-content>span:nth-child(2) {
+	font-size: 100px;
+	color: #0E2545;
+	font-family: "oswald_Light";
+	letter-spacing: -3px;
+	margin: 0;
+	margin-right: 0px;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 70px;
+	margin-right: 10px;
+}
+
+.atf-content>span:nth-child(2) strong {
+	color: #C7AD44;
+	font-family: 'oswald_Medium';
+	font-weight: normal;
+}
+
+.atf-content>span:nth-child(3) {
+	font-size: 100px;
+	color: #FDB71E;
+	font-family: "oswald_Medium";
+	letter-spacing: -3px;
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+	text-transform: uppercase;
+	line-height: 70px;
+}
+
+.atf-content>span:nth-child(3) strong {
+	font-family: 'oswald_Medium';
+	font-weight: 500;
+}
+
+.atf-content>span:nth-child(3) em {
+	color: #C7AD44;
+	font-family: 'oswald_Light';
+}
+
+.atf-content-bot {
+	font-family: 'Playfair_Display_Regular';
+	font-size: 27px;
+	text-align: center;
+	line-height: 1.4;
+	position: relative;
+	padding: 0 0px;
+}
+
+.atf-content-bot>span {
+	display: block;
+	color: #0E2545;
+}
+
+.atf-content-bot>span b {
+	font-family: 'Playfair_Displaybold_Italic';
+}
+
+.atf-buttons {
+	text-align: center;
+	padding: 38px 0 0;
+}
+
+.atf-buttons a {
+	text-transform: uppercase;
+	font-style: normal;
+	margin: 0 3px 5px;
+	color: #0E2545;
+	background-color: #FDB71E;
+	background-image: none;
+	width: 240px;
+}
+
+
+.atf-buttons span {
+	display: block;
+}
+
+.atf-buttons span .btn {
+	background: transparent;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 5.28px;
+	color: #5A5A5A;
+	opacity: 1;
+	width: auto;
+}
+
+.atf-content {
+	text-align: center;
+}
+
+.atf-content .emotion_sec {
+	margin-top: 100px;
+	margin-bottom: 48px;
+}
+
+.atf-content .emotion_sec ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.atf-content .emotion_sec ul li {
+	margin-right: 35px;
+}
+
+.atf-content .emotion_sec ul li:last-child {
+	margin-right: 0px;
+}
+
+.atf-content>span:nth-child(4) {
+	display: block;
+	text-align: center;
+}
+
+.atf-content>h1 {
+	font-size: 16px;
+	letter-spacing: 5.28px;
+	opacity: 1;
+	color: #0E2545;
+	display: block;
+	font-family: 'Lato_Bold';
+	margin-bottom: 22px;
+	text-align: right;
+	margin-right: 85px;
+	line-height: 1;
+}
+
+.atf-content>h1 em {
+	color: #fdb71e;
+}
+
+.atf-content-bot>span em {
+	display: inline-block;
+	font-family: 'Playfair_Display_Italic';
+	font-style: italic;
+}
+
+/*********** Btf1 Section Css ****/
+
+.btf1-section {
+	background: #FBFBFB;
+	padding: 142px 0px;
+	clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
+	text-align: center;
+	display: flex;
+}
+
+.section-para {
+	font-size: 51px;
+	letter-spacing: 0;
+	color: #0E2545;
+	margin-bottom: 110px;
+	display: block;
+	font-family: 'Playfair_Display_Regular';
+}
+
+
+.btf1-section .row>div.col-md-6 {
+	text-align: right;
+}
+
+.btf1-section .row>div.col-md-6 p {
+	max-width: 394px;
+	text-align: left;
+	font-size: 20px;
+	letter-spacing: 0;
+	font-family: 'Playfair_Display_Regular';
+	line-height: 42px;
+	display: inline-block;
+	margin-right: 40px;
+	color: #0D0D0D;
+}
+
+.btf1-right-content {
+	text-align: left;
+}
+
+.btf1-right-content ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 34px;
+}
+
+.btf1-right-content ul li span {
+	margin-right: 16px;
+}
+
+.btf1-section .row>div.col-md-6 .btf1-right-content ul li p {
+	text-align: left;
+	font-size: 17px;
+	color: #0E2545;
+	font-family: "Lato_Bold";
+	line-height: 42px;
+	margin-bottom: 0;
+}
+
+.btf1-right-content ul li:last-child {
+	margin-bottom: 0px;
+}
+
+.btf1-section .atf-buttons {
+	margin-top: 71px;
+}
+
+/***********/
+
+/******* Myths Section Css ******/
+
+
+.myths-section {
+	padding: 97px 0px 102px;
+}
+
+.myths-section .left-section {
+	text-align: center;
+}
+
+.myths-section .right-section {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+}
+
+.myths-section .right-section h2 {
+	font-size: 100px;
+	letter-spacing: -3.8px;
+	color: #0E2545;
+	text-transform: uppercase;
+	font-family: 'oswald_Light';
+	line-height: 60px;
+}
+
+.myths-section .right-section span {
+	text-align: left;
+	font-size: 42px;
+	letter-spacing: 0;
+	color: #FDB71E;
+	font-family: 'Playfair_Display_Regular';
+	line-height: 46px;
+	margin-bottom: 32px;
+}
+
+.myths-section .right-section a {
+	width: 277px;
+	border: 2px solid#FDB71E;
+	border-radius: 40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 19px;
+	font-family: 'Lato_Bold';
+	padding: 21px 0px 24px;
+	text-transform: uppercase;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.myths-section .right-section a:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/***********/
+
+/********** About Section **********/
+
+.about-section::before {
+	content: "";
+	position: absolute;
+	width: 97%;
+	height: 95%;
+	border: 2px solid #fdb71e;
+	left: 1.2%;
+	top: 15px;
+	-moz-transform: skew(1deg, 30deg);
+	-webkit-transform: skew(1deg, 30deg);
+	-o-transform: skew(1deg, 30deg);
+	-ms-transform: skew(1deg, 30deg);
+	transform: skew(1deg, 3deg);
+	z-index: 1;
+}
+
+.about-section .top-heading {
+	color: #FDB71E;
+	font-size: 42px;
+	line-height: 46px;
+	font-family: 'Playfair_Display_Regular';
+	margin-bottom: 33px;
+	display: block;
+}
+
+.sliders-wrap {
+	position: relative;
+	-moz-transition: 0.3s ease all !important;
+	-webkit-transition: 0.3s ease all !important;
+	transition: 0.3s ease all !important;
+	z-index: 2;
+}
+
+.sliders-wrap .content-width {
+	max-width: 1150px;
+}
+
+.sliders-inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.slider-box {
+	width: 100%;
+	position: relative;
+	-webkit-transition: 0.3s ease all;
+	transition: 0.3s ease all;
+	min-height: 415px;
+}
+
+.btf-slider-fw {
+	text-align: center;
+	/*! min-height: 312px; */
+	padding: 75px 0px 0;
+}
+
+.btf-slider-fw:before {
+	content: " ";
+	background: url(../images/Desktop/BTF3/quote-icon.svg) no-repeat;
+	width: 51px;
+	height: 42px;
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	margin-left: -25px;
+}
+
+.slide-content>span:first-child {
+	display: block;
+	line-height: 42px;
+	margin: 0 0 40px;
+	font-family: 'Playfair_Display_Regular';
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 0;
+	color: #FFFFFF;
+}
+
+.slide-content>span:nth-child(2) {
+	display: inline-block;
+	border-left: 3px solid #FDB71E;
+	padding: 7px 15px;
+	font-style: italic;
+	line-height: 1;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "Lato_Bold";
+	color: #FDB71E;
+}
+
+.slider-box .slick-slider {
+	position: static;
+	min-height: 156px;
+}
+
+.slider-box .slick-dots {
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	width: 100%;
+}
+
+.view-more-wrap {
+	position: absolute;
+	left: 0;
+	bottom: 70px;
+	width: 100%;
+	text-align: center;
+}
+
+.view-more-wrap a {
+	font-weight: bold;
+	width: 236px;
+	border: 2px solid#FDB71E;
+	border-radius: 40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 19px;
+	font-family: 'Lato_Bold';
+	padding: 21px 0px 24px;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #fff;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.view-more-wrap a:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/*************/
+
+/************* Personal Injury New Css *********/
+
+.personal-injury-section {
+	padding: 170px 0 136px;
+	overflow: hidden;
+	background: url("../images/Desktop/BTF4/btf-4-bg.png") repeat center;
+	text-align: center;
+}
+
+.personal-injury-section h2,
+.faq-section h2 {
+	font-family: 'oswald_Light';
+	font-size: 100px;
+	line-height: 60px;
+	color: #0E2545;
+	letter-spacing: -3.65px;
+	text-align: center;
+	margin: 0 0 52px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.personal-injury-section h2 span,
+.faq-section h2 span {
+	display: block;
+	font-size: 42px;
+	color: #FDB71E;
+	font-family: 'Playfair_Display_Regular';
+	letter-spacing: 0;
+	text-align: right;
+	text-transform: capitalize;
+}
+
+.personal-injury-section .atf-content-bot {
+	margin-bottom: 50px;
+}
+
+.personal-injury-section .atf-content-bot span {
+	color: #5A5A5A;
+}
+
+.personal-injury-section .atf-content-bot span p {
+    color:#5A5A5A;
+}
+
+.personal-injury-section .atf-content-bot span b {
+	color: #5A5A5A;
+}
+
+.personal-injury-contain {
+	padding: 0 0 30px 64px;
+	margin: 0 25px;
+	position: relative;
+	text-align: left;
+}
+
+.personal-icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.personal-icon img {
+	height: 130px;
+}
+
+.personal-injury-contain p {
+	position: relative;
+	margin: 0 0 10px;
+	color: #0D0D0D;
+	font-family: "Lato_Regular";
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.personal-injury-contain h3 {
+	display: inline-block;
+	font-size: 28px;
+	line-height: 38px;
+	position: relative;
+	overflow: hidden;
+	padding-right: 135px;
+	margin-right: -135px;
+	color: #122134;
+	text-transform: uppercase;
+	font-family: 'oswald_Regular';
+}
+
+.personal-injury-contain h3 a {
+	position: absolute;
+	right: 100%;
+	top: 0px;
+	display: inline-block;
+	width: 125px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: 'Lato_Bold';
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	color: #0E2545;
+}
+
+.practice-more {
+	display: none;
+}
+
+/**********/
+
+/************* About Section New *********/
+
+.about-section {
+	padding: 99px 0 140px;
+	position: relative;
+	z-index: 1;
+}
+
+.about-section h2 {
+	font-family: 'oswald_Light';
+	font-size: 150px;
+	line-height: 0.8;
+	color: #0070C5;
+	letter-spacing: -6.65px;
+	text-align: center;
+	max-width: 660px;
+	margin: 0 auto 450px;
+}
+
+.about-section h2 span {
+	display: block;
+	font-size: 28px;
+	color: #fff;
+	font-family: 'Lato_Regular';
+	letter-spacing: 12.01px;
+	margin: 0 0 35px;
+}
+
+.about-section h2 em {
+	display: block;
+	text-align: right;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: -0.43px;
+	font-family: 'Playfair_Display_Regular';
+}
+
+/**********/
+
+/*********** Claim Process Css *********/
+
+.claim-process {
+	background: #FBFBFB;
+	padding: 155px 0 100px;
+	text-align: center;
+	clip-path: polygon(0 0, 100% 8%, 100% 92%, 0% 100%);
+	margin-top: -70px;
+}
+
+
+.claim-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.claim-process .section-para {
+	margin-bottom: 50px;
+	line-height: 46px;
+}
+
+.claim-process .headline {
+	color: #0D0D0D;
+	font-family: 'Playfair_Display_Regular';
+	font-size: 20px;
+	line-height: 42px;
+	margin-bottom: 50px;
+	display: block;
+}
+
+.claim-content .claim-box {
+	text-align: center;
+}
+
+.claim-content .claim-box span {
+	display: block;
+	font-size: 18px;
+	color: #0E2545;
+	font-family: "Lato_Bold";
+	line-height: 24px;
+	max-width: 160px;
+	margin: 22px auto 14px;
+}
+
+.claim-content .claim-box p {
+	color: #0D0D0D;
+	font-family: "Lato_Regular";
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/************/
+
+/******** Faq Section Css *********/
+
+.faq-section {
+	padding: 170px 0 100px;
+}
+
+.faq-section h3 {
+	font-size: 36px;
+	color: #0E2545;
+	padding-top: 40px;
+	margin-bottom: 25px;
+}
+
+/******** Meet Out Team Css ************/
+
+.our-team {
+	text-align: center;
+	-moz-transform: skew(0deg, -10deg);
+	-webkit-transform: skew(0deg, -10deg);
+	-o-transform: skew(0deg, -10deg);
+	-ms-transform: skew(0deg, -10deg);
+	transform: skew(0deg, -3deg);
+	background: #FBFBFB;
+	padding-top: 170px;
+}
+
+.our-team .atf-buttons a {
+	width: 400px;
+	margin-bottom: 85px;
+}
+
+.our-team h2 {
+	font-family: 'oswald_Light';
+	font-size: 100px;
+	line-height: 60px;
+	color:
+		#0E2545;
+	letter-spacing: -3.65px;
+	text-align: center;
+	margin: 0 0 42px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.our-team h2 span {
+	display: block;
+	font-size: 42px;
+	font-family: 'Playfair_Display_Regular';
+	letter-spacing: 0;
+	text-align: right;
+	text-transform: capitalize;
+	color: #5A5A5A;
+}
+
+.our-team .headline {
+	display: block;
+	font-family: 'Playfair_Display_Regular';
+	font-size: 23px;
+	line-height: 41px;
+	color: #0E2545;
+}
+
+.our-team .ourteam-slider .slide-content {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+.our-team .ourteam-slider .slide-content img {
+	width: 95%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.our-team .ourteam-slider .slide-content .member {
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	border: none;
+}
+
+.our-team .ourteam-slider .slide-content .member>span {
+	font-size: 32px;
+	line-height: 46px;
+	color: #fff;
+	font-family: 'Playfair_Display_Regular';
+	display: block;
+	font-style: normal;
+	font-weight: 100;
+}
+
+.our-team .ourteam-slider .slide-content .member a {
+	font-size: 16px;
+	line-height: 12px;
+	font-family: "Lato_Bold";
+	color: #fff;
+	font-style: normal;
+}
+
+.ourteam-slider .slick-prev {
+	position: absolute;
+	left: -60px;
+	top: 35%;
+}
+
+.ourteam-slider .slick-next {
+	position: absolute;
+	right: -60px;
+	top: 35%;
+}
+
+
+.ourteam-section {
+	-moz-transform: skew(0deg, 0deg);
+	-webkit-transform: skew(0deg, 0deg);
+	-o-transform: skew(0deg, 0deg);
+	-ms-transform: skew(0deg, 0deg);
+	transform: skew(0deg, 3deg);
+}
+
+.ourteam-section .slider-box {
+	min-height: 100%;
+}
+
+.slider-box .ourteam-slider .slick-dots {
+	display: none !important;
+}
+
+/*********/
+
+/*********** Client Logos Css ***********/
+
+.client-logo-section {
+	padding: 85px 0px;
+	position: relative;
+	margin-top: 75px;
+}
+
+.client-logo-section::before {
+	content: "";
+	border: 2px solid #0E2545;
+	width: 95%;
+	height: 100%;
+	position: absolute;
+	left: 1.5%;
+	top: 0;
+	-moz-transform: skew(0deg, -1deg);
+	-webkit-transform: skew(0deg, -1deg);
+	-o-transform: skew(0deg, -1deg);
+	-ms-transform: skew(0deg, -1deg);
+	transform: skew(0deg, -1deg);
+}
+
+.client-logo-section::after {
+	content: "";
+	position: absolute;
+	width: 95%;
+	height: 100%;
+	left: 3%;
+	top: 0;
+	-moz-transform: skew(0deg, 1deg);
+	-webkit-transform: skew(0deg, 1deg);
+	-o-transform: skew(0deg, 1deg);
+	-ms-transform: skew(0deg, 1deg);
+	transform: skew(0deg, 1deg);
+	border: 2px solid #FDB71E;
+}
+
+.client-logo-section .client-logos img {
+	margin-right: 28px;
+}
+
+.client-logo-section .client-logos img:last-child {
+	margin-right: 0;
+}
+
+/************/
+
+/******** New changes ********/
+.contact-section .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label {
+	display: none;
+}
+
+.footer-left>a {
+	display: inline-block;
+	max-width: 154px;
+}
+
+.contact-form .gform_wrapper .gform_footer input.button,
+.contact-form .gform_wrapper .gform_footer input[type="submit"] {
+	text-transform: uppercase;
+	font-style: normal;
+	margin: 0 3px 5px;
+	color: #0E2545;
+	background-color: #FDB71E;
+	background-image: none;
+	width: 180px;
+	font-family: 'Lato_Bold';
+	padding: 20px 40px 20px;
+	display: inline-block;
+	line-height: 1.4;
+	text-align: center;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+/***********/
+
+/********* Media Query Css *********/
+
+@media (min-width: 768px) {
+	.personal-injury-slider {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.personal-injury-slider>div {
+		width: 50%;
+	}
+
+	.personal-injury-contain:hover h3 a {
+		right: 15px;
+	}
+
+	.slider-box:hover {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.atf-section {
+		background: #fff;
+		background-size: cover;
+		background-attachment: fixed;
+		padding: 50px 0 0;
+		min-height: 665px;
+		height: 100vh;
+		align-items: center;
+	}
+
+	.atf-content .emotion_sec {
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
+	/* .atf-content h1 {
+		font-size: 80px;
+		line-height: 70px;
+	} */
+
+	.atf-content>span:nth-child(3) {
+		font-size: 80px;
+		line-height: 70px;
+	}
+
+	.atf-content>span:nth-child(4)>span {
+		margin-bottom: 15px;
+	}
+
+	.atf-buttons {
+		padding: 30px 0 0;
+	}
+}
+
+@media (max-width: 1365px) {
+	.personal-injury-contain>span:first-child {
+		font-size: 26px;
+	}
+
+	.personal-injury-contain>span:first-child a {
+		top: 4px;
+	}
+
+	.box-title {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 1200px) {
+
+	.atf-content-bot {
+		font-size: 16px;
+	}
+
+	.atf-buttons a {
+		padding: 15px 25px;
+	}
+
+	.slider-box {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.slide-content>span:first-child {
+		font-size: 18px;
+	}
+
+	.case-results-txt>span:nth-child(2) {
+		font-size: 52px;
+	}
+
+	.los-angeles h3,
+	.los-angeles span.h3 {
+		font-size: 30px;
+	}
+
+	.why-box-inner {
+		padding: 0;
+	}
+
+	.claim-process .title-section span,
+	.claim-process .title-section>h2>span:first-child {
+		margin-left: 0;
+	}
+
+	.title-section h2 {
+		font-size: 120px;
+	}
+
+	.title-section h2 span {
+		font-size: 22px;
+		letter-spacing: 10.01px;
+	}
+
+	.claim-left h3,
+	.claim-art>span:first-child,
+	.claim-left span.h3,
+	.claim-left>span.h3:first-child {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 1030px) {
+
+	/* .atf-content h1 {
+		display: block;
+		line-height: 90px;
+	} */
+
+	.atf-content>span:nth-child(4)>span {
+		text-align: center;
+		margin-right: 0;
+	}
+
+	.atf-content>span:nth-child(4)>span em {
+		display: block;
+	}
+
+	.atf-content-bot {
+		padding: 0 120px;
+	}
+
+	.slider-box {
+		width: 80%;
+		padding: 45px 15px 110px;
+		margin: 0 auto;
+	}
+
+	.personal-injury-contain {
+		padding-left: 40px;
+	}
+
+	.personal-injury-contain>span:first-child {
+		margin-right: 0;
+		padding-right: 0;
+	}
+
+	.personal-injury-contain:hover>span:first-child a {
+		display: none;
+	}
+
+	.case-results-box>span:first-child,
+	.awards-section>span:first-child {
+		font-size: 30px;
+	}
+
+	.case-results-txt>span:nth-child(2) {
+		font-size: 40px;
+	}
+
+	.los-angeles-inner {
+		padding: 0 40px 100px;
+	}
+
+	.los-angeles h2,
+	.personal-injury-section h2 {
+		font-size: 120px;
+	}
+
+	.about-section h2 {
+		font-size: 120px;
+		max-width: 500px;
+	}
+
+	.about-section h2 span {
+		letter-spacing: 10px;
+		font-size: 18px;
+	}
+
+	.los-angeles h2 span,
+	.personal-injury-section h2 span {
+		font-size: 20px;
+	}
+
+	.about-section h2 em {
+		font-size: 30px;
+	}
+
+	.los-angeles-inner .row {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.bg-section {
+		height: 500px;
+	}
+
+	.los-angeles-inner .row>div {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.faq-section {
+		padding: 100px 0;
+		text-align: center;
+	}
+	.personal-injury-section h2, .faq-section h2 {
+		font-size: 80px;
+	}
+	.section-para {
+		font-size: 40px;
+	}
+	.myths-section .right-section span {
+		text-align: left;
+		font-size: 30px;
+	}
+	.slider-box .slick-slider {
+		min-height: 250px;
+	}
+	.location .location-text span:first-child {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.atf-section {
+		height: calc(100vh - 120px);
+	}
+
+	.btf1-section {
+		padding: 100px 0px;
+	}
+
+	.btf1-section .section-para {
+		font-size: 32px;
+		margin-bottom: 40px;
+	}
+
+	.btf1-section .row>div.col-md-6 p {
+		width: 100%;
+		max-width: 100%;
+		margin-right: 0px;
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+
+	.btf1-right-content {
+		text-align: center;
+	}
+
+	.btf1-right-content ul {
+		display: inline-block;
+	}
+
+	.slider-box {
+		width: 100% !important;
+		padding: 45px 45px 100px;
+		margin: 0;
+	}
+
+	.btf-slider-fw {
+		padding-top: 40px;
+	}
+
+	.about-section {
+		padding: 50px 0px 30px;
+	}
+
+	.about-section::before {
+		width: 92%;
+		height: 100%;
+		top: 0px;
+		left: 3.7%;
+	}
+
+	.personal-injury-section {
+		padding: 120px 0 100px;
+	}
+
+	.practice-more {
+		display: inline-block;
+		width: 237px;
+		border: 2px solid #0E2545;
+		text-align: center;
+		border-radius: 40px;
+		margin: 32px 0 60px;
+	}
+	
+	.practice-more a {
+		display: block;
+		font-size: 16px;
+		line-height: 19px;
+		padding: 21px 15px;
+		font-family: "Lato_Bold";
+		color:#021A1E;
+		text-transform: uppercase;
+	}
+
+	.atf-content-bot>span em {
+		font-size: 18px;
+	}
+
+	.atf-content-bot {
+		padding: 0 50px;
+	}
+
+	.claim-process .section-para {
+		font-size: 36px;
+	}
+
+	.claim-process .headline {
+		font-size: 18px;
+		padding: 0px 60px;
+		line-height: 30px;
+	}
+
+	.claim-content .row>div {
+		flex: 0 0 100%;
+		max-width: 50%;
+	}
+
+	.personal-injury-section h2,
+	.faq-section h2 {
+		font-size: 70px;
+	}
+
+	.faq-section {
+		text-align: center;
+		padding: 80px 0;
+	}
+
+	.personal-injury-section h2 span,
+	.faq-section h2 span {
+		font-size: 30px;
+		line-height: 1;
+	}
+
+	.our-team {
+		padding-top: 120px;
+	}
+
+	.slider-box .slick-slider {
+		position: relative;
+	}
+
+	.ourteam-slider .slick-prev {
+		left: -30px;
+		width: 20px;
+		height: 32px;
+	}
+
+	.slick-arrow::before {
+		font-size: 58px;
+		line-height: 32px;
+	}
+
+	.ourteam-slider .slick-next {
+		right: -30px;
+	}
+
+	.our-team .ourteam-slider .slide-content .member>span {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.our-team .ourteam-slider .slide-content .member>span:last-child {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.our-team .ourteam-slider .slide-content .member {
+		bottom: 5px;
+	}
+
+	.client-logo-section {
+		padding: 50px 0px;
+		margin-top: 25px;
+	}
+
+	.client-logo-section::before {
+		left: 3%;
+		width: 92%;
+	}
+
+	.client-logo-section::after {
+		width: 92%;
+		left: 35px;
+	}
+
+	.contact-section {
+		padding: 150px 40px 60px;
+	}
+
+	.footer-location .row>div {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.location {
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 25px;
+	}
+
+	.location-text {
+		width: 50%;
+		margin-bottom: 15px;
+	}
+
+	.myths-section .right-section span {
+		font-size: 30px;
+	}
+
+	.about-section {
+		padding: 50px 0px 20px;
+	}
+
+	.slider-box .btf-slider-fw .slick-slider {
+		position: static;
+	}
+
+	.btf1-section .row>div.col-md-6 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.our-team .ourteam-slider .slide-content {
+		width: 85%;
+	}
+
+	.client-logo-section .client-logos img {
+		width: 75%;
+	}
+	.myths-section .right-section h2 {
+		font-size: 68px;
+	}
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+	.atf-section {
+		background: #fff;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.about-section {
+		background: #0E2545;
+		background-size: cover;
+		text-align: center;
+		padding: 99px 0px 70px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.atf-section {
+		padding: 75px 0;
+	}
+
+	.btf1-section {
+		padding: 85px 35px 85px;
+		text-align: left;
+	}
+
+	.content-width {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.btf1-section .section-para {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.btf1-section .row>div.col-md-6 p {
+		font-size: 20px;
+		line-height: 42px;
+	}
+
+	.btf1-section .row>div.col-md-6 .btf1-right-content ul li p {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.btf1-section .atf-buttons {
+		display: block;
+	}
+
+	.atf-buttons span .btn {
+		font-size: 15px;
+		line-height: 19px;
+		padding: 15px 0px;
+	}
+
+	.myths-section {
+		padding: 45px 35px 120px;
+		position: relative;
+		margin-bottom: 71px;
+	}
+
+	.myths-section .row div.col-md-3 .left-section {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.myths-section .row div.col-md-9 .right-section {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.myths-section .row div.col-md-9 .right-section h2 {
+		order: 1;
+		font-size: 64px;
+		line-height: 60px;
+		letter-spacing: -2.47px;
+		width: 100%;
+	}
+
+	.myths-section .row div.col-md-9 .right-section span {
+		order: 2;
+		font-size: 32px;
+		line-height: 36px;
+	}
+
+	.myths-section .row div.col-md-9 .right-section a {
+		position: absolute;
+		bottom: 0;
+	}
+
+	.myths-section .row {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.myths-section .row div.col-md-3 {
+		order: 2;
+	}
+
+	.myths-section .row div.col-md-9 {
+		order: 1;
+		position: static;
+	}
+
+	.about-section::before {
+		transform: skew(1deg, 5deg);
+	}
+
+	.about-section .top-heading {
+		font-size: 32px;
+		line-height: 36px;
+		text-align: center;
+	}
+
+	.about-section .slider-box {
+		padding: 0 15px;
+		margin: 0;
+		min-height: 550px;
+	}
+
+	.btf-slider-fw {
+		padding-top: 60px;
+	}
+
+	.personal-injury-section .atf-content-bot {
+		display: none;
+	}
+
+	.claim-process .headline {
+		font-size: 20px;
+		line-height: 34px;
+		padding: 0;
+	}
+
+	.claim-process .section-para {
+		font-size: 42px;
+		line-height: 44px;
+	}
+
+
+	.claim-process .claim-content .claim-slide {
+		max-width: 100%;
+	}
+
+	.claim-content .claim-box img {
+		display: inline-block;
+	}
+
+
+	.claim-content .row>div {
+		max-width: 100%;
+		padding: 0;
+	}
+
+	.claim-content .claim-box p {
+		max-width: 234px;
+		margin: 0 auto;
+	}
+
+	.claim-content-slider {
+		justify-content: center;
+		height: auto;
+	}
+
+	.personal-injury-section h2,
+	.faq-section h2 {
+		font-size: 50px;
+		line-height: 56px;
+	}
+
+	.claim-process .atf-buttons {
+		display: block;
+	}
+
+	.faq-section h2 span {
+		font-size: 32px;
+		line-height: 41px;
+		text-align: center;
+	}
+
+	.faq-section h3 {
+		font-size: 32px;
+		line-height: 40px;
+		text-align: left;
+	}
+
+	.faq-section p {
+		font-size: 16px;
+		line-height: 32px;
+		text-align: left;
+	}
+
+	.faq-section h2 {
+		margin-bottom: 15px;
+	}
+
+	.faq-section p a {
+		font-weight: bold;
+	}
+
+	.our-team {
+		padding: 100px 35px;
+	}
+
+	.our-team h2 {
+		font-size: 50px;
+		line-height: 56px;
+	}
+
+	.our-team h2 span {
+		font-size: 32px;
+		line-height: 41px;
+		text-align: center;
+	}
+
+	.ourteam-section .atf-buttons {
+		display: block;
+	}
+
+	.ourteam-section .atf-buttons a {
+		width: 100%;
+		font-size: 16px;
+		line-height: 19px;
+		padding: 10px 25px;
+	}
+
+	.ourteam-section .slider-box {
+		margin: 0;
+		padding: 0;
+		min-height: 380px;
+	}
+
+	.our-team .ourteam-slider .slide-content {
+		width: 100%;
+	}
+
+	.ourteam-slider .slick-arrow {
+		display: none !important;
+	}
+
+	.slider-box .ourteam-slider .slick-dots {
+		display: flex !important;
+		bottom: 50px;
+	}
+
+	.ourteam-slider .slider-second {
+		position: static;
+	}
+
+	.slick-dots li button {
+		border: 2px solid #0E2545;
+	}
+
+	.slick-dots .slick-active button {
+		background: #0E2545;
+	}
+
+	.client-logo-section .client-logos img {
+		display: inline flow-root list-item;
+	}
+
+	.about-section .slider-box .slick-dots {
+		bottom: 15px;
+	}
+
+	.about-section .slider-box .slick-dots li button {
+		border: 2px solid #FDB71E;
+	}
+
+	.about-section .slider-box .slick-dots .slick-active button {
+		background: #FDB71E;
+	}
+
+	.personal-injury-slider {
+		position: static;
+	}
+
+	.client-logo-section::before {
+		left: 0px;
+		width: 95%;
+		transform: skew(0deg, -5deg);
+		top: 40px;
+	}
+
+	.client-logo-section::after {
+		width: 95%;
+		left: 18px;
+		transform: skew(0deg, 5deg);
+		top: 40px;
+	}
+
+	.slick-dots {
+		position: relative;
+		z-index: 5;
+		justify-content: center;
+	}
+
+	.client-logo-section {
+		min-height: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0;
+	}
+
+	.client-logos {
+		position: static;
+	}
+
+	.client-logo-section .slick-slide {
+		margin-bottom: 0;
+	}
+
+	.footer {
+		padding: 0;
+		padding-bottom: 40px;
+	}
+
+	.contact-section h2 {
+		font-size: 50px;
+		line-height: 56px;
+		letter-spacing: -1.9px;
+	}
+
+	.contact-section .contact-form .input-field {
+		width: 85%;
+	}
+
+	.contact-section h2 span {
+		font-size: 32px;
+		line-height: 41px;
+		text-align: center;
+	}
+
+	.contact-section .headline {
+		font-size: 26px;
+		line-height: 35px;
+	}
+
+	.contact-section .contact-form .input-field {
+		width: 85%;
+	}
+
+	.contact-section .contact-form .input-field-area {
+		width: 85%;
+	}
+
+	.contact-form .contact-number {
+		display: block;
+	}
+
+	.location-text {
+		width: 100%;
+		text-align: left;
+	}
+
+	.footer-location {
+		padding: 60px 35px 60px;
+	}
+
+	.location {
+		align-items: flex-start;
+		padding: 0;
+	}
+
+	.footer-contain::before {
+		display: none;
+	}
+
+	.footer .footer-contain {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footer-left {
+		justify-content: center;
+		align-items: center;
+		order: -1;
+	}
+
+	.footer-right .powered-by {
+		display: block;
+		text-align: center;
+		order: 1;
+		padding-top: 0;
+		margin-bottom: 45px;
+	}
+
+	.footer-right ul {
+		justify-content: center;
+		order: 2;
+	}
+
+	.iphoneX .atf-section {
+		min-height: calc(100vh - 154px);
+	}
+
+	.atf-content {
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	.atf-content h1 {
+		font-size: 16px;
+		letter-spacing: 5.28px;
+		opacity: 1;
+		color:#0E2545;
+		display: block;
+		font-family: 'Lato_Bold';
+		margin-bottom: 22px;
+		text-align: center;
+		margin-right: 0;
+		line-height: 1;
+		width: 100%;
+	}
+
+	.atf-content > h1 em {
+		display: block;
+		text-align: center;
+	}
+
+	.atf-content > span:nth-child(2) {
+		font-size: 54px;
+		letter-spacing: -1.62px;
+		line-height: 52px;
+	}
+
+	.atf-content>span:nth-child(3) {
+		font-size: 54px;
+		line-height: 52px;
+		letter-spacing: -1.62px;
+		margin-bottom: 0px;
+	}
+
+	.atf-content>span:nth-child(4)>span em {
+		font-size: 16px;
+		letter-spacing: 2px;
+	}
+
+	.atf-content-bot>span:first-child {
+		display: block;
+		font-size: 14px;
+	}
+
+	.atf-section {
+		min-height: 100vh;
+	}
+
+	.atf-content-bot {
+		padding: 0;
+	}
+
+	.atf-content-bot > span:first-child p {
+		font-size: 16px;
+		line-height: 20px;
+		font-family: "Playfair_display_Regular";
+	}
+
+	.atf-content-bot>span em {
+		font-size: 16px;
+	}
+
+	.atf-buttons {
+		display: none;
+	}
+
+	.sliders-wrap {
+		margin-top: -80px 0 0;
+	}
+
+	.sliders-inner {
+		display: block;
+	}
+
+	.btf-slider-fw:before {
+		top: 0;
+	}
+
+	.slider-box {
+		width: auto;
+		margin: 0 30px 20px;
+		padding-top: 35px;
+	}
+
+	.slide-content>span:first-child {
+		font-size: 27px;
+		line-height: 42px;
+	}
+
+	.personal-injury-section h2,
+	.about-section h2 {
+		font-size: 62px;
+		letter-spacing: -2.58px;
+	}
+
+	.personal-injury-section h2 span,
+	.about-section h2 span {
+		font-size: 32px;
+		letter-spacing: 0px;
+		line-height: 36px;
+	}
+
+	.personal-injury-section {
+		padding: 70px 35px 121px;
+	}
+
+	.personal-injury-section h2 {
+		text-align: left;
+		margin: 0 0 25px;
+		font-size: 50px;
+		line-height: 40px;
+		letter-spacing: -1.9;
+	}
+
+	.personal-injury-contain {
+		padding: 25px 0 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	.personal-icon {
+		top: 0;
+		left: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.personal-icon img {
+		margin: 0 auto;
+		max-height: 120px;
+	}
+
+	.personal-injury-contain>span:nth-child(2) {
+		font-size: 42px;
+		display: block;
+		margin: 0 0 15px;
+	}
+
+	.about-section {
+		padding: 0;
+		background: #0e2545;
+	}
+
+	.about-section .content-width {
+		padding: 103px 35px 103px;
+	}
+
+	.about-section h2 {
+		text-align: left;
+		margin: 0 0 30px;
+	}
+
+	.about-section h2 span {
+		color: #021A1E;
+	}
+
+	.about-section h2 em {
+		display: none;
+	}
+
+	.about-years-wrap,
+	.about-authors-wrap,
+	.about-firm-link {
+		display: none;
+	}
+
+	.about-bot {
+		color: #0D0D0D;
+	}
+
+	.claim-process {
+		padding: 85px 35px 103px;
+		clip-path: polygon(0 0, 100% 2%, 100% 98%, 0% 100%);
+	}
+
+	.claim-process .title-section {
+		padding-left: 0;
+	}
+
+	.claim-content {
+		display: block;
+	}
+
+	.claim-left {
+		width: 100%;
+		padding: 0 0 20px;
+	}
+
+	.claim-right {
+		width: 100%;
+		padding: 0;
+	}
+
+	.claim-left h3,
+	.claim-art>span:first-child {
+		font-size: 36px;
+	}
+
+	.claim-left span.h3 {
+		font-size: 26px !important;
+		line-height: 1.6;
+	}
+
+	.claim-left span.h3+p {
+		display: none;
+	}
+
+	.faq-section {
+		padding: 80px 35px;
+		line-height: 2;
+	}
+
+	.top-info {
+		font-size: 26px;
+		color: #2A365A;
+	}
+
+	.atf-content .emotion_sec ul li {
+		margin-right: 17px;
+	}
+
+	.atf-content .emotion_sec ul {
+		padding: 0px 25px;
+	}
+
+
+}
+
+@media (max-width: 330px) {
+
+	.myths-section .row div.col-md-9 .right-section h2 {
+		font-size: 50px;
+	}
+
+	.slide-content>span:first-child {
+		font-size: 20px;
+	}
+
+	.personal-injury-section h2 {
+		font-size: 42px;
+	}
+
+	.claim-process .section-para {
+		font-size: 35px;
+	}
+
+	.faq-section h2 {
+		font-size: 42px;
+		line-height: 50px;
+	}
+
+	.faq-section h2 span {
+		font-size: 27px;
+		line-height: 35px;
+	}
+
+	.faq-section h3 {
+		font-size: 23px;
+		line-height: 32px;
+	}
+
+	.our-team h2 {
+		font-size: 42px;
+	}
+
+	.location .location-text span:first-child {
+		font-size: 32px;
+	}
+}
